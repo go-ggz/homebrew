@@ -24,7 +24,7 @@ class Ggz < Formula
       ENV["GOPATH"] = buildpath
       ENV["GOHOME"] = buildpath
 
-      system "cd src/github.com/go-ggz/ggz && make generate build"
+      system "cd src/github.com/go-ggz/ggz && make build"
 
       bin.install "#{buildpath}/ggz" => "ggz"
     else
