@@ -4,6 +4,12 @@ class Ggz < Formula
   homepage "https://github.com/go-ggz/ggz"
   head "https://github.com/go-ggz/ggz.git"
 
+  stable do
+    version "0.1.1"
+    url "https://github.com/go-ggz/ggz/releases/download/#{version}/ggz-#{version}-darwin-amd64"
+    sha256 `curl -s https://github.com/go-ggz/ggz/releases/download/#{version}/ggz-#{version}-darwin-amd64.sha256`.split(" ").first
+  end
+
   head do
     url "https://github.com/go-ggz/ggz.git", :branch => "master"
     depends_on "go" => :build
