@@ -1,0 +1,2 @@
+# homebrew
+ggz: homebrew install
