@@ -1,6 +1,6 @@
 require "formula"
 
-class GGZ < Formula
+class Ggz < Formula
   homepage "https://github.com/go-ggz/ggz"
   head "https://github.com/go-ggz/ggz.git"
 
