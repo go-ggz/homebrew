@@ -34,7 +34,7 @@ class Ggz < Formula
 
       bin.install "#{buildpath}/bin/ggz" => "ggz"
     else
-      bin.install "#{buildpath}/ggz-#{version}-darwin-10.6-amd64" => "ggz"
+      bin.install "#{buildpath}/ggz-#{version}-darwin-amd64" => "ggz"
     end
   end
 end
